@@ -40,6 +40,19 @@ body {
   transition: transform 0.5s;
   border: 1px solid red;
 }
+
+.panel p{
+  text-transform: uppercase;
+  font-family: Cambria, sans-serif;
+  text-shadow: 0 0 4px  rgba(0,0,0,0.72) ,0 0 14px rgba(0,0,0,0.45);
+  font-size: 2em;
+}
+.panel p:nth-child(2){
+  font-size: 4em;
+}
+.panel.open {
+
+}
 .panel1 {
   background: url("../img/aoraki-90388_1920.jpg");
 }
