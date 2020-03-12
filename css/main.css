@@ -27,6 +27,9 @@ body {
   background: #6B0F9C center;
   flex: 1;
   justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 
 }
 
